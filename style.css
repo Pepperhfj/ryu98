@@ -19,7 +19,7 @@
 .Buttons {
     display: flex;
     column-gap: 20px;
-    margin-left: 108px;
+    margin-left: 119px;
     
 }
 
@@ -49,7 +49,7 @@
 
 .Info {
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 35px;
     margin-right: 20px;
     font-family: Arial Narrow, sans-serif;
     font-size: 14px;
