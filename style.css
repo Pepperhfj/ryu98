@@ -56,9 +56,26 @@
 
 .WTF {
     color: black;
-    border: dotted;
-    border-width: 1px;
+    border: 1px dotted transparent;
     outline: outset;
+    outline-color: #e7e7e7;
+    background-color: #d3d3d3;
+    font-family: Arial Narrow, sans-serif;
+}
+
+.WTF:hover {
+    color: black;
+    border: 1px dotted black;
+    outline: outset;
+    outline-color: #e7e7e7;
+    background-color: #d3d3d3;
+    font-family: Arial Narrow, sans-serif;
+}
+
+.WTF:focus {
+    color: black;
+    border: 1px dotted black;
+    outline: inset;
     outline-color: #e7e7e7;
     background-color: #d3d3d3;
     font-family: Arial Narrow, sans-serif;
@@ -66,12 +83,35 @@
 
 .Ok { 
     color: black;
-    border: dotted;
+    border: 1px dotted transparent;
     padding-left: 15px;
     padding-right: 15px;
-    border-width: 1px;
     outline: outset;
     outline-color: #e7e7e7;
     background-color: #d3d3d3;
     font-family: Arial Narrow, sans-serif;
 }
+
+.Ok:hover { 
+    color: black;
+    border: 1px dotted black;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: outset;
+    outline-color: #e7e7e7;
+    background-color: #d3d3d3;
+    font-family: Arial Narrow, sans-serif;
+}
+
+.Ok:focus { 
+    color: black;
+    border: 1px dotted black;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: inset;
+    outline-color: #e7e7e7;
+    background-color: #d3d3d3;
+    font-family: Arial Narrow, sans-serif;
+}
+
+
