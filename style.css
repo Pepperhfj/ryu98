@@ -1,6 +1,6 @@
 .WindowError {
-    outline: ridge;
-    outline-width: 4px;
+    outline: outset;
+    outline-width: 3px;
     outline-color: #e7e7e7;
     background-color: #d3d3d3;
     margin-top: 200px;
